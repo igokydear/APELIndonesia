@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  background-color: #2b7a0b;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #5bb318;
+  color: #fff;
+  cursor: pointer;
+  border: 2px #5bb318 solid;
+  transition: 0.5s;
+}
+
+nav.sticky {
+  background-color: #2b7a0b;
+}
+
+#navbar.sticky p,
+#navbar.sticky ul li {
+  color: #fff;
+}
+
+#navbar {
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  padding: 20px 120px;
+  width: 100%;
+  justify-content: space-between;
+  position: fixed;
+  transition: 0.5s;
+}
+
+#nav-logo {
+  font-size: 3em;
+  font-weight: 700;
+  cursor: pointer;
+  color: #2b7a0b;
+}
+
+#nav-logo h1 {
+}
+
+#nav-list ul {
+  display: flex;
+  font-size: 1.25em;
+  list-style: none;
+  float: right;
+  font-weight: 500;
+}
+
+#nav-list li {
+  padding: 1em;
+  cursor: pointer;
+  color: #2b7a0b;
+}
+
+#carousel {
+  width: 100%;
+  box-shadow: 0px 200px 100px -90px rgba(255, 255, 255, 0.8) inset;
+  -webkit-box-shadow: 0px 200px 100px -90px rgba(255, 255, 255, 0.8) inset;
+  -moz-box-shadow: 0px 200px 100px -90px rgba(255, 255, 255, 0.8) inset;
+}
+
+#carousel img {
+  position: relative;
+  height: 760px;
+  width: 100%;
+  /* object-fit: cover; */
+  z-index: -1;
+}
+
+#carousel-word {
+  position: absolute;
+  top: 33%;
+  font-size: 3.5em;
+  margin-left: 120px;
+}
+
+#carousel-word h3 {
+  color: #2b7a0b;
+}
+
+#carousel-word span {
+  color: #fff;
+}
+
+#carousel-btn {
+  padding: 0.6em 0.8em;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+}
+
+main {
+  width: 100%;
+  margin-top: 60px;
+}
+
+#tawarkan {
+  text-align: center;
+  color: #2b7a0b;
+}
+
+#tawarkan h2 {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+#tawarkan h3 {
+  font-weight: 500;
+}
+
+.tawarkan-list ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  color: #fff;
+  margin-top: 2em;
+  padding: 0 5%;
+}
+
+.tawarkan-list ul li {
+  width: 30%;
+  background-color: #2b7a0b;
+  text-align: left;
+}
+
+.tawarkan-list ul li img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border: 1px #2b7a0b solid;
+}
+
+.tawarkan-list ul li h1 {
+  font-size: 1.5em;
+  padding: 0 1.25rem;
+}
+
+.tawarkan-list ul li p {
+  padding: 0 1.25rem 1rem 1.25rem;
+  font-size: 1em;
+}
+
+#gabung {
+  text-align: center;
+  display: flex;
+  margin-top: 120px;
+  justify-content: center;
+  color: #2b7a0b;
+}
+
+#gabung-img {
+  height: 300px;
+  width: 500px;
+}
+
+#gabung-img img {
+  width: 100%;
+  height: 100%;
+}
+
+#gabung-words {
+  text-align: left;
+  margin: 2rem 3rem;
+}
+
+#gabung-words p {
+  margin: 0.75em 0;
+  font-size: 1.25rem;
+}
+
+#gabung-btn {
+  font-size: 1em;
+  padding: 0.5em 0.75em;
+  font-weight: 500;
+  border: none;
+}
+
+footer {
+  background-color: #2b7a0b;
+  color: white;
+}
+
+#footer-container {
+  margin-top: 100px;
+}
+
+#footer-sub {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#footer-sub ul {
+  margin: 2em 0;
+  list-style-type: none;
+}
+
+#footer-sub ul li {
+  cursor: pointer;
+}
+
+#footer-logo {
+  font-size: 1.25em;
+}
+
+.footer-sub-title {
+  font-size: 1rem;
+}
+
+.footer-sub-title h1 {
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+.footer-sub-title p {
+  margin-top: 20px;
+}
+
+.follow svg {
+  margin: 20px 20px 0 0;
+}
